@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name="viewport">
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#090c1f">
+<meta name="msapplication-TileColor" content="#090c1f">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="Mason Creative | Digital Creative Agency">
+<meta property="og:description" content="Combining art with technology to create truly immersive digital experiences.">
+<meta property="og:image" content="https://masoncreative.us/img/mason-creative-og.png">
+<title>Mason Creative | Digital Creative Agency</title>
+	<script defer src="js/vendors-twgl-full-module.bundle.js"></script>
+	<script defer src="js/vendors-locomotive-scroll-esm.bundle.js"></script>
+	<script defer src="js/vendors-lil-gui-esm.bundle.js"></script>
+	<script defer src="js/vendors-gsap-core.bundle.js"></script>
+	<script defer src="js/vendors-CSSPlugin.bundle.js"></script>
+	<script defer src="js/1746-js-index.bundle.js"></script>
+<link href="css/css-index.2954bd297d223be56ffb.css" rel="stylesheet">
+</head>
+<body>
+<div class="intro">
+  <div class="intro-container">
+    <div class="intro-wheel">&nbsp;</div>
+  </div>
+</div>
+<header>
+  <nav class="navbar">
+    <div class="container"><a href="index.html" class="navbar-brand"><img src="img/mason-creative-logo-full.svg" width="134" height="20" alt="Mason Creative"></a>
+      <div class="navbar-menu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#section-case-studies" class="nav-link" data-scroll-anchor="true">Work</a></li>
+          <li class="nav-item"><a href="#section-about" class="nav-link" data-scroll-anchor="true">About</a></li>
+          <li class="nav-item"><a href="#section-footer" class="nav-link" data-scroll-anchor="true">Get In Touch</a></li>
+        </ul>
+       <!--- <ul class="navbar-nav navbar-social">
+          <li class="nav-item"><a href="https://www.instagram.com/mason.creative/" target="_blank" class="nav-link">
+            <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.3748 3.24984C17.5342 3.25331 18.6451 3.71539 19.4648 4.53517C20.2846 5.35495 20.7467 6.46582 20.7502 7.62516V16.3748C20.7467 17.5342 20.2846 18.6451 19.4648 19.4648C18.6451 20.2846 17.5342 20.7467 16.3748 20.7502H7.62516C6.46582 20.7467 5.35495 20.2846 4.53517 19.4648C3.71539 18.6451 3.25331 17.5342 3.24984 16.3748V7.62516C3.25331 6.46582 3.71539 5.35495 4.53517 4.53517C5.35495 3.71539 6.46582 3.25331 7.62516 3.24984H16.3748ZM16.3748 1.5H7.62516C4.25625 1.5 1.5 4.25625 1.5 7.62516V16.3748C1.5 19.7437 4.25625 22.5 7.62516 22.5H16.3748C19.7437 22.5 22.5 19.7437 22.5 16.3748V7.62516C22.5 4.25625 19.7437 1.5 16.3748 1.5Z" fill="white" fill-opacity="0.5"></path>
+              <path d="M17.6874 7.62515C17.4278 7.62515 17.174 7.54818 16.9582 7.40396C16.7424 7.25974 16.5741 7.05475 16.4748 6.81492C16.3754 6.5751 16.3495 6.3112 16.4001 6.0566C16.4507 5.802 16.5757 5.56813 16.7593 5.38458C16.9429 5.20102 17.1767 5.07602 17.4313 5.02537C17.6859 4.97473 17.9498 5.00072 18.1897 5.10006C18.4295 5.1994 18.6345 5.36763 18.7787 5.58347C18.9229 5.79931 18.9999 6.05306 18.9999 6.31265C19.0002 6.48512 18.9666 6.65596 18.9007 6.81536C18.8349 6.97477 18.7382 7.11961 18.6163 7.24156C18.4943 7.36351 18.3495 7.46017 18.1901 7.526C18.0307 7.59183 17.8598 7.62552 17.6874 7.62515Z" fill="white" fill-opacity="0.5"></path>
+              <path d="M12 8.49984C12.6923 8.49984 13.369 8.70512 13.9446 9.08973C14.5202 9.47433 14.9688 10.021 15.2337 10.6605C15.4986 11.3001 15.568 12.0039 15.4329 12.6828C15.2978 13.3618 14.9645 13.9855 14.475 14.475C13.9855 14.9645 13.3618 15.2978 12.6828 15.4329C12.0039 15.568 11.3001 15.4986 10.6606 15.2337C10.021 14.9688 9.47433 14.5202 9.08973 13.9446C8.70513 13.369 8.49985 12.6923 8.49985 12C8.50084 11.072 8.86992 10.1823 9.52611 9.52611C10.1823 8.86992 11.072 8.50084 12 8.49984ZM12 6.75C10.9617 6.75 9.94662 7.05791 9.08326 7.63478C8.2199 8.21166 7.54699 9.0316 7.14963 9.99091C6.75227 10.9502 6.64831 12.0058 6.85088 13.0242C7.05345 14.0426 7.55347 14.9781 8.28769 15.7123C9.02192 16.4465 9.95738 16.9466 10.9758 17.1491C11.9942 17.3517 13.0498 17.2477 14.0091 16.8504C14.9684 16.453 15.7883 15.7801 16.3652 14.9167C16.9421 14.0534 17.25 13.0384 17.25 12C17.25 10.6076 16.6969 9.27226 15.7123 8.28769C14.7277 7.30312 13.3924 6.75 12 6.75Z" fill="white" fill-opacity="0.5"></path>
+            </svg>
+            </a></li>
+          <li class="nav-item"><a href="https://dribbble.com/masoncreative" target="_blank" class="nav-link">
+            <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 1.5C6.20297 1.5 1.5 6.20297 1.5 12C1.5 17.797 6.20297 22.5 12 22.5C17.797 22.5 22.5 17.8022 22.5 12C22.5 6.19781 17.797 1.5 12 1.5ZM18.6666 6.33984C19.8815 7.76805 20.6046 9.54925 20.7291 11.4202C18.8367 11.3217 16.5727 11.3217 14.7572 11.4914C14.5275 10.9116 14.2922 10.343 14.0353 9.79594C16.1288 8.88844 17.7422 7.69594 18.6666 6.33984ZM12 3.24984C14.0395 3.24634 16.0156 3.95866 17.5837 5.26266C16.6322 6.46547 15.1392 7.51266 13.2797 8.30297C12.2625 6.42188 11.092 4.80328 9.84375 3.52875C10.5482 3.3469 11.2725 3.25322 12 3.24984ZM8.04047 4.20703C9.30375 5.46469 10.4906 7.06641 11.5298 8.94141C9.55547 9.54469 7.29141 9.89062 4.875 9.89062C4.41563 9.89062 3.9675 9.87422 3.52453 9.84656C3.83266 8.63935 4.3949 7.5118 5.17367 6.53927C5.95244 5.56673 6.92981 4.77161 8.04047 4.20703ZM3.26625 11.5842C3.76406 11.6062 4.26703 11.617 4.77562 11.6119C7.53187 11.5791 10.0969 11.1469 12.3009 10.44C12.5088 10.8722 12.7056 11.3152 12.8916 11.7689C12.6252 11.8272 12.3637 11.9056 12.1092 12.0033C9.09609 13.2689 6.72281 15.3084 5.4375 17.775C4.02813 16.1814 3.25007 14.1274 3.24984 12C3.24984 11.8594 3.25547 11.7211 3.26625 11.5842ZM12 20.7502C10.056 20.7525 8.16724 20.1036 6.63516 18.907C7.8 16.5994 9.87797 14.6883 12.4978 13.5037C12.7439 13.3889 13.072 13.2961 13.4494 13.2141C13.7619 14.0778 14.0408 14.9747 14.2861 15.9047C14.6525 17.3083 14.9223 18.7354 15.0938 20.1759C14.1061 20.5543 13.0576 20.7489 12 20.7502ZM16.7306 19.3556C16.5595 17.9001 16.2871 16.4584 15.9155 15.0408C15.728 14.3297 15.5166 13.6406 15.2869 12.968C17.0039 12.8273 19.0603 12.8475 20.6953 12.968C20.5512 14.2606 20.1206 15.5047 19.4347 16.6097C18.7488 17.7148 17.825 18.6529 16.7306 19.3556Z" fill="white" fill-opacity="0.5"></path>
+            </svg>
+            </a></li>
+        </ul> --->
+      </div>
+      <button type="button" class="navbar-menu-toggler"><span></span> <span></span></button>
+    </div>
+  </nav>
+</header>
+<div id="page-wrapper">
+  <div id="app">
+    <main>
+		
+<!--  start body  -->
+		
+<!--  hero image  -->
+		<div>
+			<img src="img/project1/fdh-hero-2x.jpg"
+				 alt="Poster design montage for an aerospace company."
+				 style="width:100%"
+				 class="lazyload" 
+				 data-sizes="auto" 
+				 data-srcset="img/project1/fdh-hero-512w.jpg 512w, img/project1/fdh-hero-1x.jpg 1x, img/project1/fdh-hero-2x.jpg 2x">
+		</div>
+<!--  project description  -->	
+	<section class="projectDetails container">
+		<div>
+        	<h1 class="projectDetails__title">FDH Aerospace</h1>
+        	<span class="projectDetails__skills">Branding, Website, Print </span>
+        	<div class="projectDetails__dateContainer"> <span>Date</span> <span>07/2021</span> </div>
+		</div>
+			<p class="projectDetails__content">FDH Aerospace is bridging the gap between local service and global supply chain networks, offering the speed and efficiency of a global company with the convenience and relationships of a local office. A combination of inspiring imagery, clear messaging and a consistent color palette was chosen to build trust and recognition with consumers.</p>
+    </section>	
+<!-- values -->
+        <div class="lazyload container project-image--third">
+  		  <img src="img/project1/values.png" alt="Brand values infographic denoting speed, service, reliable and committed." style="width:100%">
+		</div>			
+<!-- process-font-->
+		<div class="section__spacer"></div>
+	<div class="project-card">
+			<div class="lazyload container project-image">
+				<img src="img/project1/font-family.jpg" 
+					 alt="Type specimen graphic of Stolzl font family." 
+					 style="width:100%"
+					 data-sizes="auto" 
+					 data-srcset="img/project1/font-family-512w.jpg 512w, img/project1/font-family-1x.jpg 1x, img/project1/font-family-2x.jpg 2x">
+			</div>	
+        <div class="lazyload container">
+			<img src="img/project1/logomark-rationale.jpg" 
+				 alt="Logomark concept and rationale detail slide." 
+				 style="width:100%"
+				 data-sizes="auto" 
+				 data-srcset="img/project1/logomark-rationale-512w.jpg 512w, img/project1/logomark-rationale-1x.jpg 1x, img/project1/logomark-rationale-2x.jpg 2x">
+		</div>	
+        <div class="lazyload container">
+  		  	<img src="img/project1/color-rationale.jpg" 
+				 alt="Brand identity colors: Blue, black, grey and white." 
+				 style="width:100%"
+				 data-sizes="auto" 
+				 data-srcset="img/project1/color-rationale-512w.jpg 512w, img/project1/color-rationale-1x.jpg 1x, img/project1/color-rationale-2x.jpg 2x">
+		</div>
+	</div>
+		
+<!-- logo sketch -->
+		<div class="section__spacer"></div>
+	<div class="project-card">
+			<div class="lazyload container">
+				<img src="img/project1/logomark-concept.png" 
+					 alt="Aerospace logomark with construction lines." 
+					 style="width:100%; height: auto; object-fit: cover"
+					 data-sizes="auto" 
+					 data-srcset="img/project1/logomark-concept-512w.png 512w, img/project1/logomark-concept-1x.png 1x, img/project1/logomark-concept-2x.png 2x">
+			</div>
+	</div>
+<!-- Logo Lockups -->
+<div class="section__spacer"></div>
+ 	<div class="project-card">
+       <div class="container">
+              <span>01/</span>
+                <p style="color: #848484">Logo Lockups</p>
+					<div class="top__line">
+					</div>
+        <div class="section__spacer"></div>
+		</div>
+	</div>
+<!-- process-logo -->
+  	<div class="project-card">
+       <div class="lazyload container">
+  		  <img src="img/project1/logo-white.jpg" 
+			   alt="Aerospace brand logo blue on white with tagline 'Aerospace Supply Chain.'" 
+			   style="width:100%"
+			   data-sizes="auto" 
+			   data-srcset="img/project1/logo-white-512w.jpg 512w, img/project1/logo-white-1x.jpg 1x, img/project1/logo-white-2x.jpg 2x">
+
+		</div>
+        <div class="lazyload container">
+  		  <img src="img/project1/logo-blue.jpg" 
+			   alt="Aerospace brand logo white on blue." 
+			   style="width:100%"
+			   data-sizes="auto" 
+			   data-srcset="img/project1/logo-blue-512w.jpg 512w, img/project1/logo-blue-1x.jpg 1x, img/project1/logo-blue-2x.jpg 2x">
+		</div>
+		 <div class="lazyload container">
+  		  <img src="img/project1/logos.jpg" 
+			   alt="Aerospace logo lockups on black, grey, blue and white." 
+			   style="width:100%"
+			   data-sizes="auto" 
+			   data-srcset="img/project1/logos-512w.jpg 512w, img/project1/logos-1x.jpg 1x, img/project1/logos-2x.jpg 2x">
+		</div>
+	 <div class="lazyload container">
+  		  <img src="img/project1/tagline.jpg" 
+			   alt="Aerospace logo with tagline 'Impossible is our specialty.'" 
+			   style="width:100%"
+			   data-sizes="auto" 
+			   data-srcset="img/project1/tagline-512w.jpg 512w, img/project1/tagline-1x.jpg 1x, img/project1/tagline-2x.jpg 2x">
+		</div>
+	</div>
+<!-- big street billboard -->
+<div class="section__spacer2"></div>
+	<div class="project-card">
+		<div class="lazyload project-image--94">
+  		  <img src="img/project1/billboard-street.jpg" 
+			   alt="Aerospace billboard mockup on urban street that reads: 'Service at the speed of sound.'" 
+			   style="width:100%"
+			   data-sizes="auto" 
+			   data-srcset="img/project1/billboard-street-512w.jpg 512w, img/project1/billboard-street-1x.jpg 1x, img/project1/billboard-street-2x.jpg 2x">
+		</div>			
+	</div>
+<!-- print collateral -->
+<div class="section__spacer2"></div>
+	<div class="project-card">
+		<div class="container">
+              <span>02/</span>
+                <p style="color: #848484">Print Collateral</p>
+					<div class="top__line">
+					</div>
+			<div class="section__spacer"></div>
+			</div>
+	</div>
+<!-- 3 column images -->
+	<div class="project-card">
+	<div class="lazyload container">
+	<div class="columns">
+		<div>
+			<img alt="Aerospace poster design featuring a jet on a runway" src="img/project1/poster4.jpg" style="width: 100%">
+		</div>
+		<div>
+			<img alt="Aerospace poster design that reads: 'Beyond above and beyond.'" src="img/project1/poster5.jpg" style="width: 100%">
+		</div>
+		<div>
+			<img alt="Aerospace poster design that reads: 'Service at the speed of sound.'" src="img/project1/poster6.jpg" style="width: 100%">
+		</div>
+	</div>
+	</div>
+	</div>
+<!-- more print -->
+ 	<div class="project-card">
+       <div class="lazyload container project-image">
+  		  <img src="img/project1/bc.jpg" 
+			   alt="Aerospace brand floating business cards mockup." 
+			   style="width:100%"
+			   data-sizes="auto" 
+			   data-srcset="img/project1/bc-512w.jpg 512w, img/project1/bc-1x.jpg 1x, img/project1/bc-2x.jpg 2x">
+		</div>
+        <div class="lazyload container project-image">
+  		  <img src="img/project1/fdh-billboard.jpg" 
+			   alt="Street billboard with a passerby that reads: 'Smarter supply chain at the speed of sound.'" 
+			   style="width:100%"
+			   data-sizes="auto" 
+			   data-srcset="img/project1/fdh-billboard-512w.jpg 512w, img/project1/fdh-billboard-1x.jpg 1x, img/project1/fdh-billboard-2x.jpg 2x">
+		</div>
+	</div>
+<!-- 3 column images -->
+	<div class="project-card">
+	<div class="lazyload container project-image">
+	<div class="columns">
+		<div>
+			<img alt="Poster design with a metal lathe causing sparks during production." src="img/project1/poster1.jpg" style="width: 100%; height: 100%">
+		</div>
+		<div>
+			<img alt="Graphic poster design that reads: 'Solutions as unique as your needs.'" src="img/project1/poster2.jpg" style="width: 100%; height: 100%">
+		</div>
+		<div>
+			<img alt="Aerospace poster design that reads: 'Local service, global solutions.'" src="img/project1/poster3.jpg" style="width: 100%; height: 100%">
+		</div>
+	</div>
+	</div>
+	</div>
+<!-- big street billboard -->
+<div class="section__spacer2"></div>
+	<div class="project-card">
+		<div class="lazyload project-image--full">
+  		  <img src="img/project1/posters-street.jpg" 
+			   alt="Urban street poster mockup showcasing aerospace brand." 
+			   style="width:100%"
+			   data-sizes="auto" 
+			   data-srcset="img/project1/posters-street-512w.jpg 512w, img/project1/posters-street-1x.jpg 1x, img/project1/posters-street-2x.jpg 2x">
+		</div>			
+	</div>
+ <!-- website concept -->
+	<div class="project-card">
+		<div class="section__spacer2"></div>
+			<div class="container">
+              <span>03/</span>
+                <p style="color: #848484">Website Concept</p>
+					<div class="top__line">
+					</div>
+			<div class="section__spacer"></div>
+			</div>
+	</div>
+<!-- video -->
+ 	<div class="project-card">
+      <div style="text-align:center" class="container">
+          <video width="100%" height="100%" loop="" autoplay="" muted="" playsinline="">
+            <source src="img/project1/FDH-website-concept.mp4" type="video/mp4">
+			  </source>
+          </video>
+        </div>
+	</div>
+<!-- big text -->
+		<div class="section__spacer"></div>
+        <div class="container">
+        <div>
+			  <span style="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;padding-top:60%"></span>
+				  <img alt="Colorful creative type that reads: 'Local service. Global solutions.'" 
+					   src="img/project1/end-type.png" 
+					   decoding="async" 
+					   data-nimg="responsive" 
+					   style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+			  </span>
+		</div>
+        </div>
+<!-- text slider -->
+        <div class="section__spacer"></div>
+        <div class="jsx-1910100810 animated-text__wrapper lines">
+          <h2 class="jsx-1910100810 animated-text__animation">Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions • Aerospace — Redefined • Local Service *Global Solutions
+			  <span className={Styles.scratched}>Media</span> *Global Solutions • Local Service</h2>
+        </div>
+
+
+	<!--  end body  -->  
+		
+	<!--  internal styles  -->  
+		
+<style id="section__spacer">
+.section__spacer {
+    padding: 2em 0
+}
+
+@media(max-width:500px) {
+.section__spacer {
+    padding: .8em 0
+}
+}
+</style>
+					  
+<style id="section__spacer2">
+.section__spacer2 {
+    padding: 6em 0
+}
+
+@media(max-width:500px) {
+.section__spacer2 {
+    padding: 1.2em 0
+}
+}
+</style>
+	 
+<style id="__jsx-c59bf64126b785">
+@media(max-width:500px) {
+video.jsx-c59bf64126b785 {
+    height: auto!important
+}
+}
+</style>
+<style id="__jsx-f46a9ced86bcfb17">
+.gallery__slider.jsx-f46a9ced86bcfb17 .slick-slide.jsx-f46a9ced86bcfb17 {
+    padding: 0 100px
+}
+.gallery__holder.jsx-f46a9ced86bcfb17 {
+    margin: 0!important;
+    padding: 0;
+    max-width: 100%!important
+}
+
+@media(max-width:600px) {
+.gallery__slider.jsx-f46a9ced86bcfb17 .slick-slide.jsx-f46a9ced86bcfb17 {
+    padding: initial
+}
+}
+</style>
+<style id="__jsx-1910100810">
+.lines.jsx-1910100810 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff
+}
+</style>
+<style id="__jsx-8679d34e82656e53">
+.fourth__spacer.jsx-8679d34e82656e53 {
+    padding: .5em 0
+}
+</style>
+<style id="__jsx-f3554879fd65e4f4">
+.first__spacer.jsx-f3554879fd65e4f4 {
+    padding: 3em 0
+}
+
+@media(max-width:500px) {
+.first__spacer.jsx-f3554879fd65e4f4 {
+    padding: 1.5em 0
+}
+}
+</style>
+
+		
+	<!--  end internal styles  -->  
+		
+    <!--  <div class="section-break section-break-video">
+        <video class="lazyload" data-poster="img/projects/CryptoProof-Full-Poster.jpg" loop muted playsinline>
+          <source src="img/projects/CryptoProof-Full.mp4" type="video/mp4">
+          </source>
+        </video>
+      </div> --->
+      <section class="section we-do-section">
+        <div class="container">
+          <div class="we-do-grid">
+            <div class="we-do-card"><span>Strategy</span>
+              <ul>
+                <li>Creative Strategy</li>
+                <li>Content Strategy</li>
+                <li>Brand Identity</li>
+                <li>Customer Journeys</li>
+                <li>User Research</li>
+                <li>Ad Campaigns</li>
+              </ul>
+            </div>
+            <div class="we-do-card"><span>Creative &amp; Design</span>
+              <ul>
+                <li>Creative Direction</li>
+                <li>Concepting &amp; Prototyping</li>
+                <li>Web, UI &amp; UX</li>
+                <li>App Design</li>
+                <li>Interaction Design</li>
+                <li>Motion Design</li>
+              </ul>
+            </div>
+            <div class="we-do-card"><span>Development</span>
+              <ul>
+                <li>Front End Development</li>
+                <li>Back End Development</li>
+                <li>E-commerce</li>
+                <li>Content Management Systems</li>
+                <li>App Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section-break"><img alt="Mason Creative" class="lazyload" width="1920" height="1080" data-sizes="auto" data-src="img/section-break@1x.jpg" data-srcset="img/section-break@1x.jpg 375w, img/section-break@1x.jpg 1x, img/section-break@1x.jpg 2x" src="img/section-break@1x.jpg"></div>
+      <section id="section-footer">
+        <div class="call-to-action">
+          <div class="carousel">
+            <div class="carousel-track">
+              <h3>mason@masoncreative.us &mdash; Let&rsquo;s talk &mdash; mason@masoncreative.us &mdash; Let&rsquo;s talk</h3>
+            </div>
+          </div>
+          <a href="mailto:mason@masoncreative.us" class="call-to-action-button btn btn-white">
+          <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26.5 6H5.5C4.11929 6 3 7.11929 3 8.5V23.5C3 24.8807 4.11929 26 5.5 26H26.5C27.8807 26 29 24.8807 29 23.5V8.5C29 7.11929 27.8807 6 26.5 6Z" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M7 10L16 17L25 10" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          </a></div>
+      </section>
+    </main>
+    <footer>
+      <div class="container"><a href="#app" class="back-top" data-scroll-anchor="true">
+        <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5.25 11.4375L12 4.6875L18.75 11.4375" stroke="white" stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M12 5.625V19.3125" stroke="white" stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        </a>
+        <div class="footer-layout">
+          <div class="footer-grid">
+           <h5 class="footer-title">Location</h5>
+            <div>
+              <h6 class="address-title">Tampa, FL</h6>
+              <p class="address-paragraph">mason@masoncreative.us<br>
+                <a href="tel:+1%20720-409-9007">+1 720 409 9007</a></p>
+            </div>
+     <!--       <div>
+              <h6 class="address-title">Bucharest</h6>
+              <p class="address-paragraph">Vasile Alecsandri 3,<br>
+                Bucharest, 010639<br>
+                <a href="tel:+40%20748-042-518">+40 748-042-518</a></p>
+            </div>
+<--->
+          </div>
+          <div class="footer-follow">
+            <h5 class="footer-title">Follow Me</h5>
+            <ul class="footer-social">
+              <li><a href="https://www.linkedin.com/in/mason-richards-creative/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+    </footer>
+    <div class="vm-symbol-floater-wrapper" data-scroll data-scroll-sticky data-scroll-target="#app" data-scroll-offset="100%">
+      <div class="vm-symbol-floater"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
